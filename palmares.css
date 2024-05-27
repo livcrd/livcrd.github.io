@@ -1,0 +1,166 @@
+html{
+    background-color: #808080;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080808;
+    overflow: hidden;
+}
+
+#Logo{
+    width: 60px;
+    padding: 0 10em 0 10em;
+}
+
+nav{
+    display: flex;
+    padding-right: 3em;
+}
+
+nav a{
+    padding: 30px 7em 30px 7em;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover{
+    background-color: #414141;
+}
+
+#introduction{
+    margin: 3em 3em 5em;
+    width: 60%;
+    background-color: #878787;
+    padding: 1.4em 1.2em 1.4em 1.4em;
+    border-radius: 2em 0.6em 2em 0.6em;
+}
+
+#introduction p{
+    font-size: 1.6em;
+    line-height: 1.4em;
+    
+}
+
+.logoJeu{
+    height: 150px;
+    margin: auto;
+    padding-bottom: 1.2em;
+}
+
+.jeu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3em 6em 3em 6em;
+    background-color: #606060;
+    border-radius: 2em;
+    padding: 1.2em 0 1.3em 0;
+}
+
+.jeu p, .jeu h2 {
+    text-align: center;
+    margin-bottom: 1.2em;
+    text-decoration: underline;
+}
+
+.jeu p{
+    font-size: 1.4em;
+}
+
+.jeu h2{
+    font-size: 1.6em;
+}
+
+.jeu ul {
+    text-decoration: none;
+    list-style: none;
+    color: lightseagreen;
+    font-size: large;
+    line-height: 1.4em;
+    margin: auto;
+    padding-bottom: 1.4em;
+}
+
+#roster{
+    text-align: center;
+}
+
+#basDePage{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1.2em;
+}
+
+#contact a{
+    font-size: 0.8em;
+    text-decoration: none;
+    line-height: 1.5em;
+    color: lightblue;
+}
+
+#contact p {
+    font-size: 1.23em;
+    padding: 0.7em 0 0 0;
+    margin: 0 0 0.4em 0;
+}
+
+#reseaux p{
+    margin: 0;
+    padding: 0 0 0.3em 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#reseaux a{
+    padding: 0 0.6em 0 0.6em;
+    display: inline-block;
+}
+
+#reseaux img{
+    height: 40px;
+}
+
+#lienExterne{
+    padding: 0.4em 0 0 0;
+    margin: 0 1.5em 0 0;
+}
+
+#lienExterne ul li{
+    padding: 0.6em 0 0 0;
+    list-style: none;
+}
+
+#droit{
+    margin: 0;
+    padding-bottom: 0.4em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.6em;
+    padding: 0;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer {
+    background-color: #080808;
+    color: white;
+}
+
+footer a:hover{
+    background-color: #414141;
+}

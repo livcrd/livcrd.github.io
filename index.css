@@ -1,0 +1,281 @@
+html{
+    background-color: grey;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #080808;
+    overflow: hidden;
+    height: 60px;
+    justify-content: space-between;
+}
+
+#Logo{
+    display: flex;
+    height: 60px;
+    padding: 0 0 0 3em;
+}
+
+nav{
+    height: 100%;
+    padding-right: 3em;
+    display: flex;
+}
+
+nav a{
+    display: flex;
+    padding: 0 7em;;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover{
+    background-color: #414141;
+}
+
+#information{
+    display: flex;
+    margin: 7em auto;
+    border: 0.5em solid #696969;
+    background-color: #696969;
+    padding: 2em;
+    max-width: 70%;
+    flex-direction: row; 
+    border-radius: 3em;
+}
+
+#information img{
+    padding-right: 7em;
+    width:min-content;
+}
+
+#information p{
+    font-size: 1.7em;
+    line-height: 1.4em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+#presentation{
+    padding: 2em 2em 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+figure{
+    text-align: center;
+    margin: 0;
+    width: auto;
+}
+
+article{
+    background-color: #696969;
+    border-radius: 2em;
+    margin: 0 0 1.5em 0
+}
+
+article p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #080184;
+    width: 90%;
+    margin: 0 0 0 1.2em;
+    border-radius: 2em;
+}
+
+.illustrations{
+    width: 100%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+details{
+    color: #a3a1c9;
+    padding: 0 1.3em 0.8em 1.3em ;
+    font-size: 1.15em;
+    line-height: 1.15em;
+}
+
+summary{
+    color: black;
+    text-decoration: underline;
+    margin: 0 0 1.3em 1.3em;
+}
+
+#basDePage{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 1.2em;
+}
+
+#contact a{
+    font-size: 0.8em;
+    text-decoration: none;
+    line-height: 1.5em;
+    color: lightblue;
+}
+
+#contact p {
+    font-size: 1.23em;
+    padding: 0.7em 0 0 0;
+    margin: 0 0 0.4em 0;
+}
+
+#reseaux p{
+    margin: 0;
+    padding: 0.7em 0 0.3em 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#reseaux a{
+    padding: 0 0.6em 0 0.6em;
+    display: inline-block;
+}
+
+#reseaux img{
+    height: 3empx;
+}
+
+#lienExterne{
+    padding: 0.4em 0 0 0;
+    margin: 0 1.5em 0 0;
+}
+
+#lienExterne ul li{
+    list-style: none;
+}
+
+#lienExterne p {
+    font-size: 1.23em;
+    padding: 0.7em 0 0 0;
+    margin: 0;
+}
+
+#droit{
+    margin: 0;
+    padding-bottom: 0.4em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.6em;
+    padding: 0;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer {
+    background-color: #080808;
+    color: white;
+}
+
+footer a:hover{
+    background-color: #414141;
+}
+
+@media (max-width: 1600px){
+
+    #Logo{
+        padding: 0;
+    }
+
+    #information p{
+        font-size: 1.3em;
+    }
+
+    #information img{
+        padding: 0;
+        height: 200px;
+    }
+
+    #information{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    
+    #presentation{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-bottom: 3em;
+    }
+
+    article{
+        margin: 0 3em;
+    }
+
+    article p {
+        color: beige;
+    }
+
+    summary{
+        display: none;
+    }
+
+    #lienExterne p, #contact p, #reseaux p {
+        font-size: 1em;
+    }
+
+    #lienExterne{
+        margin: 0;
+    }
+
+    #lienExterne ul {
+        padding-right: 2em;
+    }
+}
+@media (max-width:600px) {
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav a{
+        padding: 1.2em;
+        width: 100%;
+        justify-content: center;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    article{
+        margin: 0;
+    }
+
+    footer{
+        font-size: 0.4em;
+    }
+
+    #reseaux img{
+        width: 10px;
+    }
+    
+}
